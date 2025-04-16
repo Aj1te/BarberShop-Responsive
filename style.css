@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-bg-color: #f5f0da;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-bg-color{
+    background-color: var(--main-bg-color);
+}
+
+.logo img{
+    width: 10rem;
+    height: auto;
+}
+
+.search-bar{
+    width: 90%;
+    margin: auto;
+}
+
+.bg {
+    background-image: url("img/bandeau.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+
+.titre::after{
+    position: absolute;
+    content: "";
+    width: 45%;
+    height: 2px;
+    bottom: 20%;
+    background-color: black;
+  }
+
+.btn{
+    background-color: #005f71;
+}
+
+.custom-shadow{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.cards{
+    height: 900px;
+}
+
+.border-color{
+    border-color: #b8912a;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color:  #fff;
+}
+
+.copyright{
+    background-color: #005f71;
+    height: 30px;
+}
